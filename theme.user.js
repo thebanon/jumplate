@@ -18,9 +18,9 @@
 var style = document.createElement("link");
 style.setAttribute("rel", "stylesheet");
 style.setAttribute("type", "text/css");
-style.setAttribute("href", "https://raw.githubusercontent.com/thebanon/jumplate/master/style.css");
+style.setAttribute("href", "https://banon.cf/jumplate/style.css");
 document.head.appendChild(style);
 
 var script = document.createElement("script");
-script.setAttribute("src", "https://raw.githubusercontent.com/thebanon/jumplate/master/script.js");
+script.setAttribute("src", "https://banon.cf/jumplate/script.js");
 document.head.appendChild(script);
