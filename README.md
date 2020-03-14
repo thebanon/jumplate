@@ -1,7 +1,7 @@
 # JumpLate
 
 SmokeyLlama's [JumpinLlama](https://github.com/SmokeyLlama/JumpinLlama) custom theme was used as a boilerplate in the research and development of this userscript.
-## [**🢂 CLICK HERE TO INSTALL! 🢀**](https://github.com/thebanon/jumplate/raw/master/user.js)
+## [**🢂 CLICK HERE TO INSTALL! 🢀**](https://github.com/thebanon/jumplate/raw/master/theme.user.js)
 
 
 * Developed on Chrome, working on Firefox, and Opera
