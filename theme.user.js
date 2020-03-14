@@ -11,23 +11,16 @@
 // @grant        GM_listValues
 // @run-at       document-end
 // @license      MIT
-// @updateURL    https://banon.cf/jumplate/user.js
-// @downloadURL  https://banon.cf/jumplate/user.js
+// @updateURL    https://raw.githubusercontent.com/thebanon/jumplate/master/theme.user.js
+// @downloadURL  https://raw.githubusercontent.com/thebanon/jumplate/master/theme.user.js
 // ==/UserScript==
-
-/*
-var reset = document.createElement("style").setAttribute("id", "jumplate-reset");
-document.head.appendChild(reset)
-var reset = ` body > * { all: unset; } `;
-document.head.querySelector('#style').insertAdjacentHTML('beforeend',reset);
-*/
 
 var style = document.createElement("link");
 style.setAttribute("rel", "stylesheet");
 style.setAttribute("type", "text/css");
-style.setAttribute("href", "https://banon.cf/jumplate/style.css");
+style.setAttribute("href", "https://raw.githubusercontent.com/thebanon/jumplate/master/style.css");
 document.head.appendChild(style);
 
 var script = document.createElement("script");
-script.setAttribute("src", "https://banon.cf/jumplate/script.js");
+script.setAttribute("src", "https://raw.githubusercontent.com/thebanon/jumplate/master/script.js");
 document.head.appendChild(script);
