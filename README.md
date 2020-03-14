@@ -1,11 +1,9 @@
-# Smokeyllama's Jumpin Theme
-## [**🢂 CLICK HERE TO INSTALL! 🢀**](https://github.com/SmokeyLlama/jumpinllama/raw/master/jumpin_theme.user.js)
+# JumpLate
 
----
-# Icons Added:
-![Icons Added](https://raw.githubusercontent.com/SmokeyLlama/JumpinLlama/master/images/info/icons.png)
+SmokeyLlama's [JumpinLlama](https://github.com/SmokeyLlama/JumpinLlama) custom theme was used as a boilerplate in the research and development of this userscript.
+## [**🢂 CLICK HERE TO INSTALL! 🢀**](https://github.com/thebanon/jumplate/raw/master/user.js)
 
----
+
 * Developed on Chrome, working on Firefox, and Opera
 * Requires Tampermonkey:
   * [**Chrome Extension**](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
@@ -14,25 +12,13 @@
 
 ---
 # External Request Purposes:
-* [Github.io](https://github.io)
-  * Loads javascript/style files from Github
-* [Jsdelivr](https://www.jsdelivr.com)
-  * Images used in the theme (llama icon, bud/splatoon theme, etc)
-* [SmokeyLlama.com](https://smokeyllama.com)
-  * External Link to my website, used in the 'Llama Info' Button
-* [Tinychat.com](https://tinychat.com)
-  * Used as a Youtube Backup, so users of a room can listen to YT together, if Jumpin's YT quota is reached.
-  * Example: You are in Jumpin room: jumpin.chat/blue, then it would load the Tinychat room: tinychat.com/room/blue
+* [Github.io](https://thebanon.github.io)
+  * Loads javascript/style files from Github.
+* [Banon.cf](https://chree.banon.cf)
+  * External Link to my website serving as a mirror location for documentation and resources.
 
 ---
-# Chat Settings:
-![Chat Settings](https://raw.githubusercontent.com/SmokeyLlama/JumpinLlama/master/images/info/chat_settings.png)
 
-# Cam Settings:
-![Cam Settings](https://raw.githubusercontent.com/SmokeyLlama/JumpinLlama/master/images/info/cam_settings.png)
-
-# Theme Settings:
-![Theme Settings](https://raw.githubusercontent.com/SmokeyLlama/JumpinLlama/master/images/info/theme_settings.png)
 
 ---
 # IMPORTANT!
@@ -55,6 +41,3 @@
 * I found a bug and it needs to be fixed, who do I tell?
   * Make sure you're not creating a duplicate issue by [looking a the Issues](https://github.com/SmokeyLlama/JumpinLlama/issues?&q=is%3Aissue). If you found something new create an issue with specific details.
 ---
-
-# Need more help?
-[<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="160" height="90" alt="Discord Invite" title="Join Discord">](https://discord.gg/F4EHtQy)
