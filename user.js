@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         JumpinPlates: reset.css
+// @name         JumpLate
 // @namespace    https://www.chree.banon.gq/jumplate
-// @version      2020.10
+// @version      1
 // @description  Custom Theme for JumpinChat
 // @author       Chree Banon
 // @match        https://jumpin.chat/*
@@ -11,8 +11,8 @@
 // @grant        GM_listValues
 // @run-at       document-end
 // @license      MIT
-// @updateURL    https://github.com/thebanon/jumplate/raw/master/script.js
-// @downloadURL  https://github.com/thebanon/jumplate/raw/master/script.js
+// @updateURL    https://github.com/thebanon/jumplate/raw/master/user.js
+// @downloadURL  https://github.com/thebanon/jumplate/raw/master/user.js
 // ==/UserScript==
 
 var style = document.createElement("link");
