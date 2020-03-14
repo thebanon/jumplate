@@ -11,23 +11,19 @@
 // @grant        GM_listValues
 // @run-at       document-end
 // @license      MIT
-// @updateURL    https://banon.cf/jumplate/user.js
-// @downloadURL  https://banon.cf/jumplate/user.js
+// @updateURL    https://github.com/thebanon/jumplate/raw/master/user.js
+// @downloadURL  https://github.com/thebanon/jumplate/raw/master/user.js
 // ==/UserScript==
 
-/*
-var reset = document.createElement("style").setAttribute("id", "jumplate-reset");
-document.head.appendChild(reset)
-var reset = ` body > * { all: unset; } `;
-document.head.querySelector('#style').insertAdjacentHTML('beforeend',reset);
-*/
+var style = `<link href="https://github.com/thebanon/jumplate/raw/master/style.css" rel="stylesheet" type="text/css"></link>`;
+var script = `<script src="https://github.com/thebanon/jumplate/raw/master/user.js"></script>`;
 
-var style = document.createElement("link");
-style.setAttribute("rel", "stylesheet");
-style.setAttribute("type", "text/css");
-style.setAttribute("href", "https://banon.cf/jumplate/style.css");
-document.head.appendChild(style);
+style ? document.head.insertAdjacentHTML('beforeend',style) : null;
+script ? document.head.insertAdjacentHTML('beforeend',script) : null;
 
-var script = document.createElement("script");
-script.setAttribute("src", "https://banon.cf/jumplate/script.js");
-document.head.appendChild(script);
+function ajax(url, settings) { //console.log(url,settings);
+  return new Promise((resolve, reject) => { var req;
+    if(settings && settings.dataType === 'POST') { req = new Request(url, { method: 'POST', body: (settings.data ? JSON.stringify(settings.data) : null), headers: new Headers() }); } else { req = url; }
+    fetch(req).then(response => response.text()).then(res => { try { resolve(res); } catch(e) { resolve(e); } });
+  });
+}  
